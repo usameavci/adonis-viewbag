@@ -1,0 +1,27 @@
+{
+  "name": "adonis-viewbag",
+  "version": "1.0.0",
+  "description": "Extensible view bag service",
+  "main": "src/ViewBag.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usameavci/adonis-viewbag.git"
+  },
+  "keywords": [
+    "view",
+    "viewbag",
+    "nodejs",
+    "adonis",
+    "node",
+    "adonisjs"
+  ],
+  "author": "Üsame Fethullah AVCI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usameavci/adonis-viewbag/issues"
+  },
+  "homepage": "https://github.com/usameavci/adonis-viewbag#readme",
+  "dependencies": {
+    "param-case": "^2.1.1"
+  }
+}
