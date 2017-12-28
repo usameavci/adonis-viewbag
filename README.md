@@ -11,7 +11,6 @@ A helper for the data to be transferred to the view
 |-------------------:|:--------:|:--------:|
 | `@adonis/framework` |^4 | √ |
 | `@adonis/framework` |3.* | not tested |
-|------------------------------|
 
 
 ### Installation
