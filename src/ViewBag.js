@@ -78,6 +78,15 @@ class ViewBag {
     }
   }
 
+  getValue (key) {
+    const item = this.get(key)
+    if (!item) {
+      return null
+    }
+
+    return item.value
+  }
+
   getMetaTags () {
     return this.items.filter(item => item.type === 'meta') || []
   }
