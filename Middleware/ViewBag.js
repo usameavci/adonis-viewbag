@@ -11,7 +11,10 @@ class ViewBag {
     this.View = View
   }
 
-  async handle ({ request, viewbag, view, response }, next) {
+  async handle ({ request, viewbag, locale, view, response, antl }, next) {
+    viewbag.add('antl', antl)
+    viewbag.add('locale', locale)
+
     const metaTag = new RenderMetasTag(viewbag)
     const scriptsTag = new RenderScriptsTag(viewbag)
     const stylesTag = new RenderStylesTag(viewbag)
